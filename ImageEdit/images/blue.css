@@ -1,0 +1,59 @@
+QPushButton#m_minBtn
+{
+    background: transparent;
+    border:none;
+    image:url(:/images/btn_min_namal.png);
+}
+
+QPushButton#m_maxBtn
+{
+    background: transparent;
+    border:none;
+    image:url(:/images/btn_max_normal.png);
+}
+
+QPushButton#m_closeBtn
+{
+    background: transparent;
+    border:none;
+    image:url(:/images/btn_close_nomal.png);
+}
+
+QPushButton#m_minBtn:hover,QPushButton#m_maxBtn:hover
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 255, 70),stop:1 rgba(0, 0, 255, 70));
+}
+
+QPushButton#m_closeBtn:hover
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(255, 120, 120), stop:1 rgb(255, 120, 120));
+}
+
+QPushButton#m_minBtn:pressed,QPushButton#m_maxBtn:pressed
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 255, 200),stop:1 rgba(0, 0, 255, 200));
+}
+
+QPushButton#m_closeBtn:pressed
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(255, 80, 80), stop:1 rgb(255, 80, 80));
+}
+
+QPushButton#m_minBtn:focus, QPushButton#m_maxBtn:focus, QPushButton#m_closeBtn:focus
+{
+    outline: none;
+}
+
+QLabel#m_appName
+{
+    font-size:13px;
+    color: white;
+}
+
+
+
+/*QLabel#m_appIcon
+{
+    image:url(:/images/logo.svg);
+}*/
+
