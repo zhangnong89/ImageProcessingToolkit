@@ -92,7 +92,6 @@ cv2.imwrite("./cornerHarris.jpg", img)
 
 
 #############提取外边界###############
-#取阈值
 xx = []
 yy = []
 for x in range(h-1):
@@ -108,7 +107,6 @@ xx.sort()    # col[0]为左面的线， col[-1]为最右面的线
 yy.sort()    # row[0]为最上面的线， row[-1]为最下面的线
 x0, x1 = xx[0], xx[-1]
 y0, y1 = yy[0], yy[-1]
-
 
 cv2.waitKey()
 
